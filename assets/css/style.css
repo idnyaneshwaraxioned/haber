@@ -360,7 +360,7 @@ header{
     height: 425px;
     background-color: tan;
     padding: 16px 10px;
-    margin: 55px 30px;
+    margin: 55px 30px 15px 30px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -394,6 +394,77 @@ header{
     color: #000000;
   }
 /* Advice section ends here*/
+  
+/* Solutions section start here */
+  .solution-learning{
+    width: 100%;  
+    display: flex;
+  }
+  .solution-learning h2{
+    font-size: 2.8rem;
+    font-weight: bold;
+    margin: 10px;
+    color: #FFFFFF;
+  }
+  .solution{
+    width: 50%;
+    /* height: 400px; */
+    background-color: #DC6226;
+    padding: 40px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .solution ul, .learning ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+  }
+  .solution ul li, .learning ul li{
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    text-align: left;
+    margin: 10px;
+  }
+  .solution ul li .fa, .learning ul li .fa {
+    font-size: 1.2rem;
+    color: #FFFFFF;
+    margin-right: 20px;
+  }
+  .solution .btn, .learning .btn{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 900;
+    padding: 16px 18px;
+    margin: 20px;
+    border: 2px solid #FFFFFF; 
+  }
+  .learning{
+    width: 50%;
+    /* height: 400px; */
+    background-color: #424A53;
+    padding: 40px 120px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .learning ul li, .learning p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #E7ECF2;
+    text-align: left;
+    margin: 10px;
+    opacity: .6;
+  }
+/* Solutions section ends here */
+
 
 /*=================================
   main styling ends here
